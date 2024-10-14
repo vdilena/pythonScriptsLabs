@@ -123,7 +123,7 @@ print(estAgrupadasCarrera.head(20))
 """ Graficas con matplotlib """
 
 # Obtengo una grafica con los promedios de edades
-estAgrupadasCarrera["Age"].plot()
+estAgrupadasCarrera["Age"].plot(kind="bar")
 plt.show()
 
 
