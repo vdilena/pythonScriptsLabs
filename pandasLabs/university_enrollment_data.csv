@@ -1,16 +1,16 @@
 Student_ID,Country,Field_of_Study,Age,Gender,Year_of_Enrollment
 STUD00001,Mexico,Physics,32,Male,2021
-STUD00002,USA,Education,38,Non-binary,2018
+STUD00002,USA,,38,Non-binary,
 STUD00003,USA,Engineering,38,Non-binary,2019
-STUD00004,China,Physics,40,Male,2019
+STUD00004,China,,40,Male,
 STUD00005,South Africa,Physics,39,Male,2015
-STUD00006,China,Business,33,Male,2016
+STUD00006,China,,33,Male,2016
 STUD00007,Brazil,Mathematics,38,Female,2016
 STUD00008,Canada,Business,20,Female,2022
 STUD00009,Germany,Business,43,Male,2012
 STUD00010,Canada,Computer Science,22,Female,2016
 STUD00011,France,Law,22,Female,2013
-STUD00012,Brazil,Engineering,36,Female,2012
+STUD00012,Brazil,Engineering,36,,2012
 STUD00013,Argentina,Business,35,Female,2020
 STUD00014,Australia,Education,33,Female,2013
 STUD00015,France,Biology,39,Non-binary,2014
@@ -20,17 +20,17 @@ STUD00018,USA,Medicine,41,Non-binary,2013
 STUD00019,Canada,Education,35,Female,2021
 STUD00020,India,Business,39,Male,2018
 STUD00021,South Africa,Medicine,19,Non-binary,2020
-STUD00022,Australia,Mathematics,40,Non-binary,2021
+STUD00022,,Mathematics,40,Non-binary,2021
 STUD00023,USA,Education,40,Female,2023
 STUD00024,Mexico,Law,19,Non-binary,2013
-STUD00025,Australia,Computer Science,29,Female,2023
+STUD00025,Australia,Computer Science,,,2023
 STUD00026,Argentina,Engineering,29,Female,2010
 STUD00027,Canada,Engineering,39,Male,2012
 STUD00028,Brazil,Law,41,Female,2017
 STUD00029,Germany,Medicine,39,Non-binary,2013
 STUD00030,Argentina,Business,25,Non-binary,2011
-STUD00031,Germany,Business,39,Male,2016
-STUD00032,France,Mathematics,21,Female,2010
+STUD00031,Germany,,39,Male,2016
+STUD00032,France,Mathematics,,,
 STUD00033,Mexico,Education,29,Male,2010
 STUD00034,Brazil,Engineering,33,Female,2020
 STUD00035,Japan,Engineering,39,Female,2023
@@ -71,13 +71,13 @@ STUD00069,Spain,Medicine,21,Non-binary,2019
 STUD00070,USA,Education,27,Female,2011
 STUD00071,India,Law,36,Female,2019
 STUD00072,India,Mathematics,31,Non-binary,2021
-STUD00073,Japan,Law,38,Non-binary,2021
+STUD00073,,Law,38,Non-binary,
 STUD00074,Canada,Computer Science,31,Female,2014
 STUD00075,China,Business,36,Non-binary,2011
-STUD00076,Brazil,Education,39,Non-binary,2014
+STUD00076,,,,Non-binary,2014
 STUD00077,South Africa,Medicine,36,Non-binary,2020
 STUD00078,USA,Psychology,23,Female,2017
-STUD00079,Japan,Engineering,36,Female,2014
+STUD00079,Japan,,36,Female,2014
 STUD00080,Australia,Computer Science,36,Male,2018
 STUD00081,Spain,Mathematics,33,Female,2020
 STUD00082,Argentina,Law,40,Non-binary,2010
@@ -199,10 +199,10 @@ STUD00197,Japan,Science,32,Non-binary,2015
 STUD00198,UK,Medicine,26,Female,2020
 STUD00199,South Africa,Physics,24,Male,2018
 STUD00200,Japan,Education,40,Female,2010
-STUD00201,Brazil,Arts,41,Female,2016
+STUD00201,Brazil,,41,,2016
 STUD00202,South Africa,Education,44,Non-binary,2013
 STUD00203,Canada,Mathematics,33,Non-binary,2011
-STUD00204,Brazil,Biology,34,Non-binary,2021
+STUD00204,Brazil,,34,Non-binary,2021
 STUD00205,India,Medicine,22,Female,2012
 STUD00206,France,Biology,26,Male,2016
 STUD00207,Brazil,Biology,39,Female,2010
@@ -470,7 +470,7 @@ STUD00468,South Africa,Mathematics,21,Female,2010
 STUD00469,Canada,Computer Science,42,Female,2018
 STUD00470,Brazil,Engineering,20,Male,2011
 STUD00471,Brazil,Computer Science,39,Female,2013
-STUD00472,Germany,Computer Science,22,Male,2010
+STUD00472,, Science,22,Male,2010
 STUD00473,India,Engineering,32,Non-binary,2012
 STUD00474,India,Mathematics,30,Male,2013
 STUD00475,Canada,Psychology,41,Non-binary,2017
@@ -8646,7 +8646,7 @@ STUD08644,Germany,Education,35,Male,2017
 STUD08645,USA,Mathematics,39,Non-binary,2023
 STUD08646,China,Mathematics,24,Male,2018
 STUD08647,India,Physics,39,Female,2012
-STUD08648,Spain,Mathematics,36,Male,2020
+STUD08648,,,36,Male,2020
 STUD08649,India,Arts,38,Non-binary,2022
 STUD08650,Germany,Law,26,Female,2014
 STUD08651,India,Biology,36,Non-binary,2016
@@ -8809,11 +8809,11 @@ STUD08807,USA,Engineering,40,Non-binary,2010
 STUD08808,Australia,Law,41,Male,2018
 STUD08809,UK,Engineering,42,Non-binary,2010
 STUD08810,Australia,Mathematics,21,Non-binary,2012
-STUD08811,Mexico,Physics,29,Male,2012
+STUD08811,Mexico,,29,Male,2012
 STUD08812,France,Arts,27,Non-binary,2020
 STUD08813,South Africa,Arts,21,Non-binary,2022
-STUD08814,USA,Computer Science,31,Non-binary,2020
-STUD08815,France,Physics,27,Non-binary,2020
+STUD08814,USA,,31,Non-binary,2020
+STUD08815,France,Physics,,Non-binary,2020
 STUD08816,Mexico,Engineering,26,Male,2016
 STUD08817,Brazil,Arts,29,Male,2023
 STUD08818,India,Medicine,38,Non-binary,2021
@@ -8938,7 +8938,7 @@ STUD08936,South Africa,Law,20,Female,2010
 STUD08937,Brazil,Physics,44,Non-binary,2011
 STUD08938,South Africa,Education,20,Male,2013
 STUD08939,Spain,Business,42,Female,2021
-STUD08940,USA,Business,20,Female,2021
+STUD08940,USA,,,Female,2021
 STUD08941,Spain,Law,39,Non-binary,2018
 STUD08942,Germany,Psychology,36,Female,2015
 STUD08943,Argentina,Psychology,28,Female,2014
@@ -9096,9 +9096,9 @@ STUD09094,Japan,Computer Science,22,Non-binary,2018
 STUD09095,Japan,Education,29,Male,2014
 STUD09096,Japan,Medicine,18,Male,2015
 STUD09097,France,Science,31,Male,2015
-STUD09098,Mexico,Physics,43,Female,2015
+STUD09098,,Physics,43,Female,2015
 STUD09099,Mexico,Psychology,35,Male,2015
-STUD09100,Japan,Law,40,Male,2015
+STUD09100,Japan,Law,40,,2015
 STUD09101,South Africa,Medicine,20,Male,2022
 STUD09102,Canada,Education,35,Male,2013
 STUD09103,Canada,Engineering,42,Non-binary,2017
@@ -9390,7 +9390,7 @@ STUD09388,South Africa,Computer Science,33,Male,2022
 STUD09389,USA,Mathematics,38,Non-binary,2014
 STUD09390,USA,Arts,39,Non-binary,2022
 STUD09391,Brazil,Arts,22,Non-binary,2010
-STUD09392,India,Medicine,36,Female,2018
+STUD09392,,,36,Female,2018
 STUD09393,China,Psychology,20,Female,2012
 STUD09394,Canada,Physics,22,Male,2019
 STUD09395,USA,Computer Science,27,Non-binary,2016
@@ -9556,7 +9556,7 @@ STUD09554,Germany,Arts,34,Female,2022
 STUD09555,India,Science,21,Male,2016
 STUD09556,UK,Education,25,Female,2015
 STUD09557,Canada,Computer Science,25,Non-binary,2011
-STUD09558,UK,Education,39,Male,2011
+STUD09558,UK,,,Male,2011
 STUD09559,South Africa,Psychology,20,Male,2016
 STUD09560,Argentina,Biology,20,Non-binary,2020
 STUD09561,Mexico,Business,40,Male,2017
@@ -9853,7 +9853,7 @@ STUD09851,India,Physics,44,Non-binary,2021
 STUD09852,South Africa,Engineering,29,Female,2023
 STUD09853,Japan,Medicine,33,Female,2018
 STUD09854,Spain,Law,44,Male,2016
-STUD09855,UK,Law,21,Non-binary,2013
+STUD09855,,,21,Non-binary,2013
 STUD09856,France,Arts,20,Female,2021
 STUD09857,Germany,Business,44,Female,2022
 STUD09858,France,Computer Science,22,Non-binary,2022
@@ -9948,7 +9948,7 @@ STUD09946,Japan,Arts,19,Male,2010
 STUD09947,Mexico,Engineering,34,Male,2019
 STUD09948,Mexico,Mathematics,43,Female,2016
 STUD09949,Spain,Law,30,Female,2012
-STUD09950,Japan,Computer Science,37,Male,2021
+STUD09950,, ,37,Male,2021
 STUD09951,Germany,Education,34,Non-binary,2013
 STUD09952,UK,Law,38,Male,2011
 STUD09953,Japan,Physics,21,Male,2015
@@ -9996,6 +9996,6 @@ STUD09994,Spain,Engineering,37,Female,2014
 STUD09995,China,Arts,44,Non-binary,2020
 STUD09996,India,Mathematics,25,Non-binary,2010
 STUD09997,UK,Law,38,Female,2023
-STUD09998,India,Law,21,Female,2023
+STUD09998,,,21,Female,2023
 STUD09999,Germany,Physics,23,Male,2020
 STUD10000,Spain,Medicine,24,Male,2018
