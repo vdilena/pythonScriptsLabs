@@ -126,4 +126,7 @@ print(estAgrupadasCarrera.head(20))
 estAgrupadasCarrera["Age"].plot(kind="bar")
 plt.show()
 
+""" Guardo el datafram filtrado en un csv """
+
+estAgrupadasCarrera.to_csv("estadisticasAgrupadasDF.csv")
 
