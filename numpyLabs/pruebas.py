@@ -61,9 +61,9 @@ circunferencia = np.linspace(0, 2*pi, 20)
 seno = np.sin(circunferencia)
 coseno = np.cos(circunferencia)
 tangente = np.tan(circunferencia)
-plt.plot(seno)
-plt.plot(coseno)
-plt.plot(tangente)
+#plt.plot(seno)
+#plt.plot(coseno)
+#plt.plot(tangente)
 #plt.show()
 
 """ Operaciones con arrays """
@@ -78,4 +78,24 @@ print(f"Array de numeros concatenados: {numerosCompleto}")
 numerosCompleto.sort()
 print(f"Array completo ordenado en forma descendente: {numerosCompleto[::-1]}")
 
-# Me quede en minuto 17
+# Quiero generar 500 numeros aleatorios entre 0 y 1, con una semilla de 2 bits para la reproducibilidad
+numerosEnRango = np.random.default_rng(2)
+numerosAletorios = numerosEnRango.random(500)
+print(f"Numeros random entre 0 y 1: {numerosAletorios}")
+plt.hist(numerosAletorios, bins = 50)
+#plt.show()
+
+# Quiero que me haga un calculo de una normal con los numeros aleatorios con una media de 5 y una desviacion estandar de 2 para 2000 numeros
+numerosAletoriosNormal = numerosEnRango.normal(5, 2, 2000)
+print(f"Distribucion normal: {numerosAletoriosNormal}")
+plt.hist(numerosAletoriosNormal, bins = 50)
+#plt.show()
+
+""" Operaciones con funciones agregadas """
+
+# Cargo 200 numeros enteros del 0 al 50
+numerosAleatoriosEnteros = numerosEnRango.integers(50, size=200)
+print(f"Numeros del 0 al 50 {numerosAleatoriosEnteros}")
+
+# Obtengo el minimo del array numerosAleatoriosEnteros
+print(f"Minimo en array: {numerosAleatoriosEnteros.min()}")
