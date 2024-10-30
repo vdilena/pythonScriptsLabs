@@ -1,31 +1,42 @@
 
+import time
 import numpy as np
 from numpy import pi
 import matplotlib.pyplot as plt
 
-# Lista original
-numeros = [1, 8, -5, 7, 1, 45, -12, 4, 9, 11, 77, 102, -200, 40, 44]
-print("Lista original")
-#print(numeros)
+""" Lista original """
 
-# Matriz original
-matrizNumeros = [[1, 8, -5], [7, 1, 45], [-12, 4, 9], [11, 77, 102], [-200, 40, 44]]
-print("Matriz original")
-#print(matrizNumeros)
+# Lista de 500000 numeros aleatorios del 1 al 500
+numeros = np.random.randint(1, 501, size=500000).tolist()
+#print(f"Lista original: {numeros}")
+
+""" Mido el tiempo que tarda en recorrer la lista """
+inicio = time.time()
+sumaElementos = sum(numeros)
+fin = time.time()
+#print(f"La duracion de la suma de elementos de la lista fue de {fin -inicio}")
 
 # Transformo una lista de una dimension en un array
 arrayNumeros = np.array(numeros)
-print("Transformo una lista en un array")
-#print(arrayNumeros)
+#print(f"Transformo una lista en un array: {arrayNumeros}")
 
+""" Mido el tiempo que tarda en recorrer el array de una dimension """
+inicio = time.time()
+sumaElementos = np.sum(arrayNumeros)
+fin = time.time()
+#print(f"La duracion de la suma de elementos del array unidimensional fue de {fin -inicio}")
+
+""" Matriz original """
+# Matriz de 100000 filas por 5 columnas con numeros aleatorios del 1 al 500
+matrizNumeros = np.random.randint(1, 501, size=(60, 5)).tolist()
+#print(f"Matriz original: {matrizNumeros}")
 
 # Transformo una lista de 2 dimensiones en un array tipo matriz
 arrayMatrizNumeros = np.array(matrizNumeros)
-print("Transformo una lista de 2 dimensiones en un array tipo matriz")
-#print(arrayMatrizNumeros)
+#print(f"Transformo una lista de 2 dimensiones en un array tipo matriz: {arrayMatrizNumeros}")
 
 # Quiero saber las dimensiones de los arrays
-print(f"Dimension del primer array: {arrayNumeros.ndim}")
+#print(f"Dimension del primer array: {arrayNumeros.ndim}")
 #print(f"Dimension del segundo array: {arrayMatrizNumeros.ndim}")
 
 # Quiero saber las estructuras de los arrays
@@ -114,7 +125,7 @@ numerosAleatoriosEnteros = numerosEnRango.integers(50, size=200)
 
 # Cargo 2000 numeros enteros del 0 al 100 en una matriz de 6x6
 matrizNumerosAleatoriosEnteros = numerosEnRango.integers(100, size=(6,6))
-print(f"Numeros del 0 al 100 en una matriz {matrizNumerosAleatoriosEnteros}")
+#print(f"Numeros del 0 al 100 en una matriz {matrizNumerosAleatoriosEnteros}")
 
 # Obtengo el promedio de matrizNumerosAleatoriosEnteros de toda la matriz
 #print(f"Promedio de numeros en matriz: {matrizNumerosAleatoriosEnteros.mean()}")
@@ -135,4 +146,4 @@ print(f"Numeros del 0 al 100 en una matriz {matrizNumerosAleatoriosEnteros}")
 #print(f"Elementos de la tercer columna de la fila 2 a la fila 5: {matrizNumerosAleatoriosEnteros[1:6,2]}")
 
 # Quiero acceder a los elementos de la primera y segunda columna de la fila 1 a la fila 4
-print(f"Elementos de la primera y segunda columna de la fila 1 a la fila 4: {matrizNumerosAleatoriosEnteros[0:4,0:2]}")
+#print(f"Elementos de la primera y segunda columna de la fila 1 a la fila 4: {matrizNumerosAleatoriosEnteros[0:4,0:2]}")
