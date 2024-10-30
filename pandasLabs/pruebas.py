@@ -1,10 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Rango de 20 dias a partir del 01/01/2024
-datos = pd.date_range("20240101", periods=20)
-print(datos)
-
 # Lectura de archivo csv y se transforma en un dataframe
 estadisticasUnivDataFrame = pd.read_csv("university_enrollment_data.csv", index_col="Student_ID")
 
