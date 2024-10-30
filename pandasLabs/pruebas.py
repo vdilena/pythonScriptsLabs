@@ -12,7 +12,7 @@ print(estadisticasUnivDataFrame.head())
 print("*** Las ultimas 20 filas del dataframe ***")
 print(estadisticasUnivDataFrame.tail(20))
 
-# Obtengo analitica descriptiva del datframe
+# Obtengo informacion estadistica del datframe (cantidad, media, desvio estandar, minimo, maximo, percentiles)
 print("*** Analitica descriptiva del dataframe ***")
 print(estadisticasUnivDataFrame.describe())
 
