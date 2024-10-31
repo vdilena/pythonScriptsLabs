@@ -123,7 +123,7 @@ numerosAleatoriosEnteros = numerosEnRango.integers(50, size=200)
 # Obtengo la sumatoria de los elementos del array numerosAleatoriosEnteros
 #print(f"Sumatoria de numeros en array: {numerosAleatoriosEnteros.sum()}")
 
-# Cargo 2000 numeros enteros del 0 al 100 en una matriz de 6x6
+# Cargo 36 numeros enteros del 0 al 100 en una matriz de 6x6
 matrizNumerosAleatoriosEnteros = numerosEnRango.integers(100, size=(6,6))
 #print(f"Numeros del 0 al 100 en una matriz {matrizNumerosAleatoriosEnteros}")
 
@@ -139,11 +139,11 @@ matrizNumerosAleatoriosEnteros = numerosEnRango.integers(100, size=(6,6))
 # Obtengo todos los numeros de la matriz mayores a 35
 #print(f"Numeros mayores a 35 en matriz: {matrizNumerosAleatoriosEnteros[ matrizNumerosAleatoriosEnteros > 35 ]}")
 
-# Quiero acceder a la posicion fila 3, columa 5 de la matriz
+# Quiero acceder a la posicion fila 2, columa 5 de la matriz
 #print(f"Fila 3, columa 5 de la matriz: {matrizNumerosAleatoriosEnteros[2, 4]}")
 
 # Quiero acceder a los elementos de la tercer columna de la fila 2 a la fila 5
 #print(f"Elementos de la tercer columna de la fila 2 a la fila 5: {matrizNumerosAleatoriosEnteros[1:6,2]}")
 
 # Quiero acceder a los elementos de la primera y segunda columna de la fila 1 a la fila 4
-#print(f"Elementos de la primera y segunda columna de la fila 1 a la fila 4: {matrizNumerosAleatoriosEnteros[0:4,0:2]}")
+print(f"Elementos de la primera y segunda columna de la fila 1 a la fila 4: {matrizNumerosAleatoriosEnteros[0:4,0:2]}")
