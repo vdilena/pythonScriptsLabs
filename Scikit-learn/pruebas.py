@@ -1,19 +1,11 @@
+# Aprendizaje supervisado
+# https://www.youtube.com/watch?v=TmAq9D49LGc&list=PLzKF7sAvC2S9wrGq0UPqzbypOzwXagE2J&index=3
+
+# Regresion lineal simple (Minimizacion de errores) y = b0 + b1x
 import numpy as np
-from sklearn.datasets import load_iris
-from sklearn.preprocessing import StandardScaler, KBinsDiscretizer
-from sklearn.compose import ColumnTransformer
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
 
-X, y = load_iris(as_frame=True, return_X_y=True)
-sepal_cols = ["sepal length (cm)", "sepal width (cm)"]
-petal_cols = ["petal length (cm)", "petal width (cm)"]
 
-preprocessor = ColumnTransformer(
-    [
-        ("scaler", StandardScaler(), sepal_cols),
-        ("kbin", KBinsDiscretizer(encode="ordinal"), petal_cols),
-    ],
-    verbose_feature_names_out=False,
-).set_output(transform="pandas")
-
-X_out = preprocessor.fit_transform(X)
-X_out.sample(n=5, random_state=0)
+# Aprendizaje no supervisado
